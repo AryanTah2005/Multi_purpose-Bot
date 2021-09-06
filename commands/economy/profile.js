@@ -145,7 +145,7 @@ module.exports = {
                     .addText(`${Info}`, 165, 200)
                     .addText(`XP: ${xp} / ${nxtLvlXp}`, 300, 418)
                     .addCircularImage(avatar, 90, 93, 89, 104)
-                    .toBufferAsync();
+                    .toBufferAsync();//lol
             }
 
             const attachment = new MessageAttachment(await createCanvas(), 'profile.png')
